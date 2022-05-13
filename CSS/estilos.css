@@ -15,11 +15,8 @@ main {
 
 .header {
     background-color: rgb(243,245,204);
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
 }
 
 .header__marca {
@@ -145,7 +142,6 @@ main {
 
 .seccion3 {
     color: white;
-    background-image: url(../imagenes/14.png);
     width: 100%;
     min-height: 900px;
     margin-top: 1rem;
@@ -194,7 +190,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
 }
 
 main{
@@ -284,6 +279,79 @@ form{
     display: flex;
     flex-wrap: wrap;
 }
+
+.seccion1 {
+    color: white;
+    background-image: url(../imagenes/16.png);
+    width: 100%;
+    min-height: 900px;
+    margin-top: 1rem;
+}
+
+.seccion2 {
+    color: white;
+    width: 100%;
+    min-height: 900px;
+    margin-top: 1rem;
+}
+
+.seccion3 {
+    color: #621144;
+    width: 100%;
+    min-height: 900px;
+    margin-top: 1rem;
+
+}
+
+
+.tituloppal{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+            
+}
+
+.parrafo{
+    font-size: 30px;
+    text-align: center;
+}
+
+.fecha{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    list-style: none;
+}
+
+.titulo__seccion3{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.titulo__seccion2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+}
+
+.servicios{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.servicio__parrafo{
+    font-size: 15px;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 1023px) {
     .header {
