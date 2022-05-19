@@ -1,0 +1,28 @@
+.seccion1 {
+    color: white;
+    background-image: url(../imagenes/16.png);
+    width: 100%;
+    min-height: 900px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.titulo1{
+    font-size: 70px;
+    font-weight: bold;
+        
+}
+
+.titulo2{
+    font-size: 30px;
+    text-align: end;
+}

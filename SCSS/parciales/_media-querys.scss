@@ -1,0 +1,122 @@
+@media screen and (max-width: 1023px) {
+    .header {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .seccion1 {
+        display: flex;
+        height: 100vh;
+    }
+
+    .header {
+        flex-direction: row;
+
+    }
+
+    .logo{
+        margin-left: 20px;
+        margin-top: 16px;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header__open {
+        display: block;
+        font-size: 32px;
+        color: rgb(243,245,204);
+        text-decoration: none;
+    }
+
+    .titulo3 {
+        font-size: 20x;
+        display: flex;
+        flex-wrap: wrap;
+           
+    }
+
+    .titulo2 {
+        font-size: 15px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer__texto {
+        order: -1;
+    }
+
+    .footer__marca {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #lateral {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        transition: right 1s;
+    }
+
+    #lateral:target {
+        right: 0;
+    }
+
+    .lista {
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .nav__item {
+        margin-left: 0;
+    }
+
+    .imagenes{
+        width: 300px;
+        height: auto;
+        padding: 1rem;  
+    
+    }
+
+    .imagenes2{
+        width: 300px;
+        height: 300px;
+        padding: 1rem;        
+    }
+
+    .gridimagen{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .videos{
+        width: 300px;
+        height: auto;
+        padding: 1rem;
+    
+    }
+    
+    .gridvideo{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+
+}

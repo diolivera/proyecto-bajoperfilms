@@ -1,0 +1,36 @@
+.seccion3 {
+    color: white;
+    width: 100%;
+    min-height: 900px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.titulo3 {
+    font-size: 50px;
+    padding: 5px;
+    width: auto;
+    height: auto;
+}
+
+.eventos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.fechas{
+    margin: 1rem;
+    list-style: none;
+    font-size: 20px;
+}
