@@ -1,0 +1,54 @@
+SEO.
+
+Keywords y descripción:
+
+Index
+<meta name="keywords" content="BajoPerfilms, Artistas, Produccion, Sueños, Servicios, Promocion, Eventos, Sueños, Inicio">
+<meta name="description" content="La productora encargada de hacer realidad tus sueños, es BajoPerfilms">
+
+Nosotros
+<meta name="keywords" content="BajoPerfilms, Artistas, Produccion, Sueños, Servicios, Promocion, Eventos, Sueños, Nosotros">
+<meta name="description" content="El tridente encargado de BajoPerfilms, para hacer realidad tus sueños">
+
+Imágenes
+<meta name="keywords" content="BajoPerfilms, Artistas, Produccion, Sueños, Servicios, Promocion, Eventos, Sueños, Imagenes">
+<meta name="description" content="La mejor recopilación de Imagenes de BajoPerfilms">
+
+Videos
+<meta name="keywords" content="BajoPerfilms, Artistas, Produccion, Sueños, Servicios, Promocion, Eventos, Sueños, Videos">
+<meta name="description" content="La mejor recopilación de Videos de BajoPerfilms">
+
+Contacto
+<meta name="keywords" content="BajoPerfilms, Artistas, Produccion, Sueños, Servicios, Promocion, Eventos, Sueños, Contacto">
+<meta name="description" content="Ponete en contacto con nosotros para poder ser parte de BajoPerfilms">
+
+
+Título y encabezados:
+
+Section 1
+
+<h1 class="tituloppal">BAJO PERFILMS Producciones</h1>
+<h2 class="parrafo">Nosotros hacemos realidad tus sueños</h2>
+
+Section 2
+
+<h1 class="titulo__seccion2">NUESTROS SERVICIOS</h1>
+<h3 class="servicios">Promoción Artística</h3>
+<p class="servicio__parrafo">Estamos en constante búsqueda de nuevas herramientas para obtener mayor difusión de nuestros clientes. Nuestro aliado estratégico y el entorno digital en el que nos movemos nos permite brindar nuevas modalidades de reconocimiento y posicionamiento del artista. Nos caracterizamos por ser una compañía con iniciativa inteligente y novedosa en cuanto a la difusión y posicionamiento.</p>
+
+
+<h3 class="servicios">Producción Audiovisual</h3>
+<p class="servicio__parrafo">Sabemos la importancia de los productos audiovisuales en el mundo del entretenimiento, por eso nos gusta ayudar a potenciar todo tipo de producto audiovisual desde videoclips musicales hasta contenidos para televisión, cine, y medios digitales.</p>
+
+<h3 class="servicios">Booking</h3>
+<p class="servicio__parrafo">Somos mucho más que una productora musical, es por esto que otro de nuestros  servicios es el “Booking”, manejando todo lo relacionado entre la venta  y comercialización de presentaciones y shows, bajo las condiciones económicas pactadas entre el manager y el artista.
+                              Con este servicio que ofrecemos, buscamos velar por el buen desarrollo y conclusión económica de las presentaciones del artista y que este obtenga el mayor número de presentaciones posibles.</p>
+
+<h3 class="servicios">Producción Musical</h3>
+<p class="servicio__parrafo">Para nosotros  todo gira alrededor de nuestros clientes  y del concepto que quieren expresar, es por esto que contamos  con el mejor equipo  de  producción musical  al servicio de nuestros artistas: temas inéditos, arreglos musicales de temas ya producidos y composición de letras para canciones inéditas.</p>
+
+Contacto
+
+<h2 class="titulomain tracking-in-contract-bck">CONTACTANOS</h2>
+<p class="fecha">Si te gusta nuestros trabajos, contratarnos o simplemente quieres saludar, nos encantaría saber de ti. Síguenos en las redes sociales o simplemente use este formulario de contacto para enviarnos un correo electrónico.</p>
+

@@ -1,0 +1,30 @@
+@mixin container($ancho, $alto, $color) {
+    width: $ancho;
+    height: $alto;
+    background-color: $color;
+    border-radius: 5%;
+    text-align: center;
+    margin: 5px;
+  } 
+  
+  .box_uno{
+    @include container(200px, 200px,black
+    )
+  }
+
+
+$black: black;
+$white: white;
+$bordo: #621144;
+
+section {
+  background: $white;
+
+  &div {
+    color: $white;
+  }
+
+  &li {
+    color: $bordo;
+  }
+}
