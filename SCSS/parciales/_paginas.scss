@@ -17,7 +17,7 @@ main{
     margin: 40px;
     min-height: 900px;
     padding-top: 1rem;
-    color: $color-ppal;
+    color: $primary;
 }
 
 .titulomain{
@@ -27,7 +27,7 @@ main{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .lista__nosotros {
@@ -102,7 +102,7 @@ form{
 }
 
 .seccion1 {
-    color: white;
+    color: $second;
     background-image: url(../imagenes/16.png);
     width: 100%;
     min-height: 900px;
@@ -110,14 +110,14 @@ form{
 }
 
 .seccion2 {
-    color: white;
+    color: $second;
     width: 100%;
     min-height: 900px;
     margin-top: 1rem;
 }
 
 .seccion3 {
-    color: $color-ppal;
+    color: $primary;
     width: 100%;
     min-height: 900px;
     margin-top: 1rem;
@@ -150,6 +150,7 @@ form{
     font-weight: bold;
     text-align: center;
     margin-top: 150px;
+    color: $second;
 }
 
 .titulo__seccion2{
@@ -171,4 +172,14 @@ form{
 .servicio__parrafo{
     font-size: 15px;
     text-align: center;
+}
+
+.fecha_parrafo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    list-style: none;
+    color: $second;
+
 }

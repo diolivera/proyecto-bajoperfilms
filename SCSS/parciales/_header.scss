@@ -3,7 +3,7 @@
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(243,245,204,1) 20%, rgba(243,245,204,1) 75%, rgba(255,255,255,1) 85%);
     font-family: 'Montserrat', sans-serif;
     padding: 1rem;
-    color: $color-ppal;
+    color: $primary;
 
     &__marca {
         width: 50px;
@@ -24,7 +24,7 @@
     }
     
     &__enlace{
-        color: $color-ppal;
+        color: $primary;
         text-decoration: none;
     }
 }

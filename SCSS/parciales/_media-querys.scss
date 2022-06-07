@@ -118,5 +118,44 @@
     
     }
 
+    .tituloppal{
+        font-size: 25px;
+    }
+
+    .parrafo{
+        font-size: 20px;
+    }
+
+    .titulo__seccion2{
+        font-size: 25px;
+    }
+
+    .servicios{
+        font-size: 20px;
+    }
+
+    .servicio__parrafo{
+        font-size: 15px;
+    }
+
+    .titulo__seccion3{
+        font-size: 25px
+    }
+
+    .fecha_parrafo{
+        font-size: 15px
+    }
+
+    .videos{
+        display: flex;
+        flex-wrap: nowrap;  
+        padding-right: 85px;   
+    }
+
+    .box_uno{
+        @include container(170px, 800px, grey
+
+        )
+      }
 
 }

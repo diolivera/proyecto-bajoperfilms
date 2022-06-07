@@ -4,27 +4,47 @@
     background-color: $color;
     border-radius: 5%;
     text-align: center;
-    margin: 5px;
+    margin: 20px;
+    padding: 10px;
   } 
   
   .box_uno{
-    @include container(200px, 200px,black
+    @include container(500px, 300px, grey
     )
   }
 
+  
 
-$black: black;
-$white: white;
-$bordo: #621144;
+  $primary: #621144;
+  $second: white;
 
-section {
-  background: $white;
+  $theme-colors: (
+    "primary": $primary,
+    "second": $second,
 
-  &div {
-    color: $white;
+  )
+
+ 
+/*%integrantes {
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 20px
+    font-size: 20px
+  }
+  
+  .ivan {
+    @extend %integrantes;
+    background-color: red;
   }
 
-  &li {
-    color: $bordo;
+  .juli {
+    @extend %integrantes;
+    background-color: blue;
   }
-}
+
+  .lean {
+    @extend %integrantes;
+    background-color: yellow;
+  }*/

@@ -1,9 +1,8 @@
 .seccion3 {
-    color: white;
+    color: $second;
+    background-image: url(../imagenes/14.png);
     width: 100%;
-    min-height: 700px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    min-height: 900px;
    
     display: flex;
     flex-direction: column;
@@ -27,10 +26,12 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    
 }
 
 .fechas{
     margin: 1rem;
     list-style: none;
     font-size: 20px;
+    
 }

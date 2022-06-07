@@ -1,3 +1,36 @@
+.box_uno {
+  width: 500px;
+  height: 300px;
+  background-color: grey;
+  border-radius: 5%;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+/*%integrantes {
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 20px
+    font-size: 20px
+  }
+  
+  .ivan {
+    @extend %integrantes;
+    background-color: red;
+  }
+
+  .juli {
+    @extend %integrantes;
+    background-color: blue;
+  }
+
+  .lean {
+    @extend %integrantes;
+    background-color: yellow;
+  }*/
 * {
   padding: 0;
   margin: 0;
@@ -59,12 +92,10 @@ main {
 }
 
 .seccion1 {
-  color: white;
+  color: black;
   background-image: url(../imagenes/16.png);
   width: 100%;
   min-height: 900px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,6 +137,7 @@ main {
   font-family: 'Montserrat', sans-serif;
   padding: 10px 50px;
   display: block;
+  text-decoration: none;
 }
 
 .lista2 {
@@ -113,6 +145,7 @@ main {
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   padding: 10px 50px;
+  text-decoration: none;
 }
 
 .lista3 {
@@ -120,6 +153,7 @@ main {
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   padding: 10px 50px;
+  text-decoration: none;
 }
 
 .lista4 {
@@ -127,6 +161,7 @@ main {
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   padding: 10px 50px;
+  text-decoration: none;
 }
 
 .parrafo {
@@ -137,10 +172,9 @@ main {
 
 .seccion3 {
   color: white;
+  background-image: url(../imagenes/14.png);
   width: 100%;
-  min-height: 700px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  min-height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -198,7 +232,7 @@ main {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .lista__nosotros {
@@ -313,6 +347,7 @@ form {
   font-weight: bold;
   text-align: center;
   margin-top: 150px;
+  color: white;
 }
 
 .titulo__seccion2 {
@@ -334,6 +369,15 @@ form {
 .servicio__parrafo {
   font-size: 15px;
   text-align: center;
+}
+
+.fecha_parrafo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  list-style: none;
+  color: white;
 }
 
 .focus-in-contract-bck {
@@ -708,6 +752,41 @@ form {
   .gridvideo {
     display: flex;
     flex-direction: column;
+  }
+  .tituloppal {
+    font-size: 25px;
+  }
+  .parrafo {
+    font-size: 20px;
+  }
+  .titulo__seccion2 {
+    font-size: 25px;
+  }
+  .servicios {
+    font-size: 20px;
+  }
+  .servicio__parrafo {
+    font-size: 15px;
+  }
+  .titulo__seccion3 {
+    font-size: 25px;
+  }
+  .fecha_parrafo {
+    font-size: 15px;
+  }
+  .videos {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 85px;
+  }
+  .box_uno {
+    width: 170px;
+    height: 800px;
+    background-color: grey;
+    border-radius: 5%;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
