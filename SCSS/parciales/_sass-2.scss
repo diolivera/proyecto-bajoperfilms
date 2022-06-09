@@ -9,11 +9,11 @@
   } 
   
   .box_uno{
-    @include container(500px, 300px, grey
+    @include container(500px, 300px, rgba(34,34,34,0.75)
     )
   }
 
-  
+
 
   $primary: #621144;
   $second: white;
@@ -21,30 +21,30 @@
   $theme-colors: (
     "primary": $primary,
     "second": $second,
-
+    
   )
 
- 
-/*%integrantes {
-    display: flex
-    flex-direction: column
-    justify-content: center
-    align-items: center
-    padding: 20px
-    font-size: 20px
+  
+.integrantes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 20px;
   }
   
-  .ivan {
-    @extend %integrantes;
+  .integrantes--ivan {
+    @extend .integrantes;
     background-color: red;
   }
 
-  .juli {
-    @extend %integrantes;
+  .integrantes--juli {
+    @extend .integrantes;
     background-color: blue;
   }
 
-  .lean {
-    @extend %integrantes;
+  .integrantes--lean {
+    @extend .integrantes;
     background-color: yellow;
-  }*/
+  }
