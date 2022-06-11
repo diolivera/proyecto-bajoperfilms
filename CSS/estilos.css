@@ -8,29 +8,30 @@
   padding: 10px;
 }
 
-/*%integrantes {
-    display: flex
-    flex-direction: column
-    justify-content: center
-    align-items: center
-    padding: 20px
-    font-size: 20px
-  }
-  
-  .ivan {
-    @extend %integrantes;
-    background-color: red;
-  }
+.integrantes, .integrantes--ivan, .integrantes--juli, .integrantes--lean {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+}
 
-  .juli {
-    @extend %integrantes;
-    background-color: blue;
-  }
+.integrantes--ivan {
+  background-color: black;
+}
 
-  .lean {
-    @extend %integrantes;
-    background-color: yellow;
-  }*/
+.integrantes--juli {
+  background-color: black;
+}
+
+.integrantes--lean {
+  background-color: black;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -137,7 +138,6 @@ main {
   font-family: 'Montserrat', sans-serif;
   padding: 10px 50px;
   display: block;
-  text-decoration: none;
 }
 
 .lista2 {
@@ -145,7 +145,6 @@ main {
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   padding: 10px 50px;
-  text-decoration: none;
 }
 
 .lista3 {
@@ -153,7 +152,6 @@ main {
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   padding: 10px 50px;
-  text-decoration: none;
 }
 
 .lista4 {
@@ -161,7 +159,6 @@ main {
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   padding: 10px 50px;
-  text-decoration: none;
 }
 
 .parrafo {
@@ -338,7 +335,7 @@ form {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
-  padding: 10px;
+  padding: 20px;
   list-style: none;
 }
 
@@ -348,6 +345,7 @@ form {
   text-align: center;
   margin-top: 150px;
   color: white;
+  text-shadow: red -2px 0, cyan 2px 0;
 }
 
 .titulo__seccion2 {
@@ -378,6 +376,7 @@ form {
   padding: 10px;
   list-style: none;
   color: white;
+  text-shadow: red -2px 0, cyan 2px 0;
 }
 
 .focus-in-contract-bck {
@@ -777,7 +776,7 @@ form {
   .videos {
     display: flex;
     flex-wrap: nowrap;
-    padding-right: 85px;
+    padding-right: 70px;
   }
   .box_uno {
     width: 170px;

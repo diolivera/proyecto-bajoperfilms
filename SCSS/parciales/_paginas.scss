@@ -141,7 +141,7 @@ form{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
     list-style: none;
 }
 
@@ -151,6 +151,7 @@ form{
     text-align: center;
     margin-top: 150px;
     color: $second;
+    text-shadow: red -2px 0, cyan 2px 0;
 }
 
 .titulo__seccion2{
@@ -181,5 +182,6 @@ form{
     padding: 10px;
     list-style: none;
     color: $second;
+    text-shadow: red -2px 0, cyan 2px 0;
 
 }

@@ -22,7 +22,7 @@
     "primary": $primary,
     "second": $second,
     
-  )
+  );
 
   
 .integrantes {
@@ -30,21 +30,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 20px;
     font-size: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+
   }
   
   .integrantes--ivan {
     @extend .integrantes;
-    background-color: red;
+    background-color: black;
   }
 
   .integrantes--juli {
     @extend .integrantes;
-    background-color: blue;
+    background-color: black;
   }
 
   .integrantes--lean {
     @extend .integrantes;
-    background-color: yellow;
+    background-color: black;
   }
