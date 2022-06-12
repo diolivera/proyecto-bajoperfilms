@@ -1,11 +1,12 @@
 .box_uno {
-  width: 500px;
-  height: 300px;
+  width: 700;
+  height: 270px;
   background-color: rgba(34, 34, 34, 0.75);
   border-radius: 5%;
   text-align: center;
+  font-size: 15px;
   margin: 20px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .integrantes, .integrantes--ivan, .integrantes--juli, .integrantes--lean {
@@ -337,6 +338,7 @@ form {
   font-size: 20px;
   padding: 20px;
   list-style: none;
+  padding-bottom: 100px;
 }
 
 .titulo__seccion3 {
@@ -525,8 +527,8 @@ form {
 }
 
 .jello-vertical {
-  -webkit-animation: jello-vertical 4s both;
-  animation: jello-vertical 4s both;
+  -webkit-animation: jello-vertical 2s both;
+  animation: jello-vertical 2s both;
 }
 
 @-webkit-keyframes jello-vertical {
@@ -668,6 +670,12 @@ form {
   .seccion1 {
     display: flex;
     height: 100vh;
+    min-height: 500px;
+  }
+  .seccion3 {
+    display: flex;
+    height: 100vh;
+    min-height: 500px;
   }
   .header {
     flex-direction: row;
@@ -725,6 +733,7 @@ form {
     justify-content: center;
     gap: 1rem;
     text-align: center;
+    padding-left: 0rem;
   }
   .nav__item {
     margin-left: 0;
@@ -742,11 +751,6 @@ form {
   .gridimagen {
     display: flex;
     flex-direction: column;
-  }
-  .videos {
-    width: 300px;
-    height: auto;
-    padding: 1rem;
   }
   .gridvideo {
     display: flex;
@@ -769,6 +773,7 @@ form {
   }
   .titulo__seccion3 {
     font-size: 25px;
+    margin-top: 50px;
   }
   .fecha_parrafo {
     font-size: 15px;
@@ -776,16 +781,26 @@ form {
   .videos {
     display: flex;
     flex-wrap: nowrap;
-    padding-right: 70px;
+    padding: 20px;
+  }
+  .eventos {
+    padding-left: 0rem;
+  }
+  .fecha {
+    font-size: 15px;
+  }
+  .titulomain {
+    font-size: 25px;
   }
   .box_uno {
     width: 170px;
-    height: 800px;
-    background-color: grey;
+    height: 550px;
+    background-color: rgba(34, 34, 34, 0.75);
     border-radius: 5%;
     text-align: center;
+    font-size: 15px;
     margin: 20px;
-    padding: 10px;
+    padding: 20px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

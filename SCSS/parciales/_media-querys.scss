@@ -6,9 +6,17 @@
 }
 
 @media screen and (max-width: 600px) {
+
     .seccion1 {
         display: flex;
         height: 100vh;
+        min-height: 500px;
+    }
+
+    .seccion3 {
+        display: flex;
+        height: 100vh;
+        min-height: 500px;
     }
 
     .header {
@@ -80,6 +88,7 @@
         justify-content: center;
         gap: 1rem;
         text-align: center;
+        padding-left: 0rem;
     
     }
 
@@ -104,13 +113,6 @@
         display: flex;
         flex-direction: column;
 
-    }
-
-    .videos{
-        width: 300px;
-        height: auto;
-        padding: 1rem;
-    
     }
     
     .gridvideo{
@@ -140,7 +142,8 @@
     }
 
     .titulo__seccion3{
-        font-size: 25px
+        font-size: 25px;
+        margin-top: 50px;
     }
 
     .fecha_parrafo{
@@ -149,14 +152,25 @@
 
     .videos{
         display: flex;
-        flex-wrap: nowrap;  
-        padding-right: 70px;   
+        flex-wrap: nowrap;
+        padding: 20px;
+    }
+
+    .eventos {
+        padding-left: 0rem;
+    }
+
+    .fecha{
+        font-size: 15px;
+    }
+
+    .titulomain {
+        font-size: 25px;
     }
 
     .box_uno{
-        @include container(170px, 800px, grey
-
-        )
+        @include container(170px, 550px, rgba(34,34,34,0.75));
+        
       }
 
 }
