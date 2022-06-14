@@ -50,8 +50,8 @@ main {
 }
 
 .header {
-  background: black;
-  background: linear-gradient(90deg, black 0%, #f3f5cc 20%, #f3f5cc 75%, white 85%);
+  background: #f3f5cc;
+  background: linear-gradient(90deg, #f3f5cc 0%, white 100%);
   font-family: 'Montserrat', sans-serif;
   padding: 1rem;
   color: #621144;
@@ -87,8 +87,8 @@ main {
 }
 
 .footer {
-  background: black;
-  background: linear-gradient(90deg, black 0%, #f3f5cc 20%, #f3f5cc 75%, white 85%);
+  background: #f3f5cc;
+  background: linear-gradient(90deg, #f3f5cc 0%, white 100%);
   color: #621144;
   padding: 15px;
 }
