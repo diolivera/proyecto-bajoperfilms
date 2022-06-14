@@ -168,6 +168,10 @@
         font-size: 25px;
     }
 
+    .logo{
+        width: 0px;
+    }
+
     .box_uno{
         @include container(170px, 550px, rgba(34,34,34,0.75));
         
