@@ -99,7 +99,7 @@ if (servicioSeleccionado <= 0) {
     alert("Ingresa un ID valido");
 }
 
-*/
+
 
 
 class Servicio {
@@ -189,3 +189,6 @@ if (servicioSeleccionado <= 0) {
 } else {
     alert("Ingresa un ID valido");
 }
+
+*/
+
