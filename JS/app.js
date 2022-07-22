@@ -23,7 +23,7 @@ const mostrarServicios = (servicios) =>{
     const boton = document.getElementById(`boton${servicio.id}`)
 
     boton.addEventListener( 'click', ()=> {
-        carritoIndex(producto.id)
+        carritoIndex(servicio.id)
         alert(`Se agrego $(servicio.nombre)`)
 
     })

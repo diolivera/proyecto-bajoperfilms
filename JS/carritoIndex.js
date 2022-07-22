@@ -1,17 +1,17 @@
-import { productos } from "./stock.js";
+import { servicio } from "./stock.js";
 
 let carritoDeCompras = []
 
-export const carritoIndex = (productoId)=>{
+export const carritoIndex = (servicioId)=>{
 
     const contenedorCarrito = document.getElementById("servicio-contenedor")
 
     const renderserviciosCarrito = ()=>{
 
-    let producto = productos.find( producto => producto.id == productoId)
-    carritoDeCompras.push(producto)
+    let servicio = servicio.find( servicio => servicio.id == servicioId)
+    carritoDeCompras.push(servicio)
         
-    producto.cantidad = 1;
+    servicio.cantidad = 1;
 
     let div = document.createElement('div')
 
