@@ -1,87 +1,25 @@
 const servicios = [
-    {
-        id:1,
-        nombre:"artistica",
-        desc:"Imagen",
-        precio: 1999,
-        cantidad:1
-    },
-    {
-        id:2,
-        nombre:"artistica",
-        desc:"Imagen + Redes Sociales",
-        precio: 4000,
-        cantidad:1
-    },
-    {
-        id:3,
-        nombre:"artistica",
-        desc:"Imagen + Redes Sociales + Marketings",
-        precio: 9000,
-        cantidad:1
-    },
-    {
-        id:4,
-        nombre:"audiovisual",
-        desc:"1 videoclip",
-        precio: 4999,
-        cantidad:1
-    },
-    {
-        id:5,
-        nombre:"audiovisual",
-        desc:"2 videoclips",
-        precio: 8999,
-        cantidad:1
-    },
-    {
-        id:6,
-        nombre:"audiovisual",
-        desc:"4 videoclips",
-        precio: 12000,
-        cantidad:1
-    },
-    {
-        id:7,
-        nombre:"booking",
-        desc:"1 evento",
-        precio: 2499,
-        cantidad:1
-    },
-    {
-        id:8,
-        nombre:"booking",
-        desc:"2 eventos",
-        precio: 4999,
-        cantidad:1
-    },
-    {
-        id:9,
-        nombre:"booking",
-        desc:"4 eventos",
-        precio: 10000,
-        cantidad:1
-    },{
-        id:10,
-        nombre:"musical",
-        desc:"Single",
-        precio: 1999,
-        cantidad:1
-    },
-    {
-        id:11,
-        nombre:"musical",
-        desc:"EP",
-        precio: 4999,
-        cantidad:1
-    },
-    {
-        id:12,
-        nombre:"musical",
-        desc:"Album",
-        precio: 9999,
-        cantidad:1
-    },
-]
+    {id:01, tipo:"Artística", nombre:"Promoción Artística - Imagen", precio: 3000, foto: "../imagenes/Servicios/imagen.png" },
 
-export { servicios };
+    {id:02, tipo:"Promoción Artística", nombre:"Imagen + Redes Sociales", precio: 6000, foto: "../imagenes/Servicios/redes.png" },
+ 
+    {id:03, tipo:"Promoción Artística", nombre:"Imagen + Redes Sociales + Marketing", precio: 10000, foto: "../imagenes/Servicios/marketing.png" },
+ 
+    {id:04, tipo:"Producción Audiovisual", nombre:"1 videoclip", precio: 5999, foto: "../imagenes/Servicios/1 video.png" },
+ 
+    {id:05, tipo:"Producción Audiovisual", nombre:"2 videoclips", precio: 9999, foto: "../imagenes/Servicios/2 videos.png" },
+ 
+    {id:06, tipo:"Producción Audiovisual", nombre:"4 videoclips", precio: 19000, foto: "../imagenes/Servicios/4 videos.png" },
+ 
+    {id:07, tipo:"Booking", nombre: "1 evento", precio: 4999, foto: "../imagenes/Servicios/1 evento.png"},
+  
+    {id:08, tipo:"Booking", nombre: "2 eventos", precio: 8999, foto: "../imagenes/Servicios/2 eventos.png"},
+  
+    {id:09, tipo:"Booking", nombre: "4 eventos", precio: 15999, foto: "../imagenes/Servicios/4 eventos.png"},
+  
+    {id:10, tipo:"Producción Musical", nombre: "Single", precio: 3000, foto: "../imagenes/Servicios/Single.jpg"},
+  
+    {id:11, tipo:"Producción Musical", nombre: "EP", precio: 7999, foto: "../imagenes/Servicios/EP.jpg"},
+   
+    {id:12, tipo:"Producción Musical", nombre: "Album", precio: 17999, foto: "../imagenes/Servicios/album.jpg"},
+];
