@@ -1,0 +1,74 @@
+[{
+    "id": 1,
+    "tipo": "Promoción Artística",
+    "nombre": "Artística - Imagen",
+    "precio": 3000,
+    "foto": "../imagenes/Servicios/imagen.png"
+}, {
+    "id": 2,
+    "tipo": "Promoción Artística",
+    "nombre": "Imagen + Redes Sociales",
+    "precio": 6000,
+    "foto": "../imagenes/Servicios/redes.png"
+}, {
+    "id": 3,
+    "tipo": "Promoción Artística",
+    "nombre": "Imagen + Redes Sociales + Marketing",
+    "precio": 10000,
+    "foto": "../imagenes/Servicios/marketing.png"
+}, {
+    "id": 4,
+    "tipo": "Producción Audiovisual",
+    "nombre": "1 videoclip",
+    "precio": 5999,
+    "foto": "../imagenes/Servicios/1 video.png"
+}, {
+    "id": 5,
+    "tipo": "Producción Audiovisual",
+    "nombre": "2 videoclips",
+    "precio": 9999,
+    "foto": "../imagenes/Servicios/2 videos.png"
+}, {
+    "id": 6,
+    "tipo": "Producción Audiovisual",
+    "nombre": "4 videoclips",
+    "precio": 19999,
+    "foto": "../imagenes/Servicios/4 videos.png"
+}, {
+    "id": 7,
+    "tipo": "Booking",
+    "nombre": "1 evento",
+    "precio": 4999,
+    "foto": "../imagenes/Servicios/1 evento.png"
+}, {
+    "id": 8,
+    "tipo": "Booking",
+    "nombre": "2 eventos",
+    "precio": 8999,
+    "foto": "../imagenes/Servicios/2 eventos.png"
+}, {
+    "id": 9,
+    "tipo": "Booking",
+    "nombre": "4 eventos",
+    "precio": 15999,
+    "foto": "../imagenes/Servicios/4 eventos.png"
+}, {
+    "id": 10,
+    "tipo": "Producción Musical",
+    "nombre": "Single",
+    "precio": 3000,
+    "foto": "../imagenes/Servicios/Single.jpg"
+}, {
+    "id": 11,
+    "tipo": "Producción Musical",
+    "nombre": "EP",
+    "precio": 7999,
+    "foto": "../imagenes/Servicios/EP.jpg"
+}, {
+    "id": 12,
+    "tipo": "Producción Musical",
+    "nombre": "Album",
+    "precio": 17999,
+    "foto": "../imagenes/Servicios/album.jpg"
+
+}]
