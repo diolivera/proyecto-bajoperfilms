@@ -4,6 +4,22 @@ let serviciosJSON = [];
 
 let cantidadTotalCompra = carrito.length;
 
+const lista = document.getElementById("listado");
+fetch("./json/servicios.json")
+.then(response => response.json())
+.then(servicios => {
+  servicios.forEach(servicio => {
+    const li = document.createElement("li");
+    li.innerHTML = `
+      <h4>${servicio.nombre}</h4>
+      <p>${servicio.precio}</p>
+      <p>Código: ${servicio.id}</p>
+      <hr />
+    `;
+    lista.append(li);
+  });
+});
+
 
 $(document).ready(function () {
   $("#cantidad-compra").text(cantidadTotalCompra);
